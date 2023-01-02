@@ -25,9 +25,16 @@ body{
 .Menu-bar ul li a{
     text-decoration: none;
     color: white;
+    transition: .4s ease;
 }
 .Menu-bar ul li:hover{
     background-color:gray;
     border-radius: 5px;
+    text-align: center;
+}
+.Menu-bar ul li:hover{
+    background-color:darkcyan;
+}
+.header{
     text-align: center;
 }
