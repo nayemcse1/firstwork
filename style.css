@@ -1,0 +1,33 @@
+*
+{   
+    padding: auto;margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: sans-serif;
+}
+.Menu-bar{
+    background: rgb(0, 100, 0);
+    text-align: right;
+}
+.Menu-bar ul{
+    display: inline-flex;
+     list-style:none;
+     color: azure;
+}
+.Menu-bar ul li{
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+.Menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.Menu-bar ul li:hover{
+    background-color:gray;
+    border-radius: 5px;
+    text-align: center;
+}
